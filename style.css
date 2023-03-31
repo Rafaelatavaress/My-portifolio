@@ -18,7 +18,7 @@
     font-family: 'Maily Personal Use', sans-serif;
     font-size: 2.5rem;
     cursor: pointer;
-    background: linear-gradient(to right, #9f8cac, #522e6c, #e0ffff);
+    background: linear-gradient(to right, #9f8cac,  #e0ffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -360,13 +360,13 @@ li {
     top: 25px;
     transform: translateX(-50%);
     background-image: radial-gradient(circle, #000 48%, transparent 55%),
-    radial-gradient(circle, #000 48%, transparent 55%),
-    radial-gradient(circle, #fff 30%, transparent 45%),
-    radial-gradient(circle, #000 48%, transparent 51%),
-    linear-gradient(#000 20px, transparent 0),
-    linear-gradient(#cfecf9 60px, transparent 0),
-    radial-gradient(circle, #cfecf9 50%, transparent 51%),
-    radial-gradient(circle, #cfecf9 50%, transparent 51%);
+        radial-gradient(circle, #000 48%, transparent 55%),
+        radial-gradient(circle, #fff 30%, transparent 45%),
+        radial-gradient(circle, #000 48%, transparent 51%),
+        linear-gradient(#000 20px, transparent 0),
+        linear-gradient(#cfecf9 60px, transparent 0),
+        radial-gradient(circle, #cfecf9 50%, transparent 51%),
+        radial-gradient(circle, #cfecf9 50%, transparent 51%);
     background-repeat: no-repeat;
     background-size: 16px 16px, 16px 16px, 10px 10px, 42px 42px, 12px 3px,
         50px 25px, 70px 70px, 70px 70px;
@@ -382,7 +382,7 @@ li {
     left: -20%;
     top: 0;
     background-image: radial-gradient(circle, #fff 48%, transparent 50%),
-    radial-gradient(circle, #fff 48%, transparent 50%);
+        radial-gradient(circle, #fff 48%, transparent 50%);
     background-repeat: no-repeat;
     background-size: 65px 65px;
     background-position: 0px 12px, 145px 12px;
@@ -390,18 +390,19 @@ li {
 }
 
     @keyframes faceLift {
-        0% {
-        transform: translateX(-60%);
-        }
-        100% {
-        transform: translateX(-30%);
-        }
+    0% {
+    transform: translateX(-60%);
     }
+    100% {
+    transform: translateX(-30%);
+    }
+}
     @keyframes earLift {
-        0% {
-        transform: translateX(10px);
-        }
-        100% {
-        transform: translateX(0px);
-        }
+    0% {
+    transform: translateX(10px);
     }
+    100% {
+    transform: translateX(0px);
+    }
+}
+    
