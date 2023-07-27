@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background-color: #383D3D;
+    background-color: #4c6e81;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,7 +18,7 @@
     font-family: 'Maily Personal Use', sans-serif;
     font-size: 2.5rem;
     cursor: pointer;
-    background: linear-gradient(to right, #9f8cac,  #e0ffff);
+    background: linear-gradient(to right, #cf8da7,  #7aacbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -54,7 +54,7 @@
 }
 
 .right ul li a:hover {
-    background-color: #9f8cac;
+    background-color: #cf8da7;
     border-radius: 7px;
     color: #383D3D;
 }
@@ -67,7 +67,7 @@ main{
 }
 
 body {
-    background: #9f8cac;
+    background: #cf8da7;
     color: white;
 }
 
@@ -82,7 +82,7 @@ section {
     font-family: 'Maily Personal Use', sans-serif;
     font-size: 4rem;
     margin: 20px;
-    background: linear-gradient(to right, #9f8cac, #522e6c, #e0ffff);
+    background: linear-gradient(to right, #cf8da7, #522e6c, #e0ffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -95,13 +95,13 @@ section {
 }
 
 section:nth-child(odd){
-    color: #e0ffff;
-    background: #9f8cac;
+    color: #7aacbf;
+    background: #aa5377;
 }
 
 section:nth-child(even){
     color: #fff;
-    background: #383D3D;
+    background: #3b3759;
 }
 
 .container:nth-child(odd){
@@ -116,7 +116,7 @@ section .container{
     margin: 100px;
     padding: 10%;
     border-radius: 30px;
-}
+} 
 
 .perfil{
     display: flex;
@@ -128,7 +128,7 @@ section h1{
     font-family: 'Maily Personal Use', sans-serif;
     font-size: 5rem;
     margin: 20px;
-    background: linear-gradient(to right, #522e6c, #010D0D);
+    background: linear-gradient(to right, #cf8da7, #7aacbf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -196,7 +196,7 @@ section h2{
         font-size: 1.5rem;
         text-align:center;
         margin: 60px;
-        color: #e0ffff;
+        color: #3b3759;
     
     }
 }
@@ -223,8 +223,8 @@ section h2{
 }
 
 footer {
-    background: #9f8cac;
-    color:#383D3D;
+    background: #aa5377;
+    color:#3b3759;
     padding: 30px;
     font-family: 'Ubuntu', sans-serif;
     
@@ -259,7 +259,7 @@ footer {
 
 h3 {
     margin-bottom: 15px;
-    color: #383D3D;
+    color: #7aacbf;
 }
 
 ul {
@@ -270,6 +270,8 @@ ul {
 
 li {
     margin-bottom: 18px;
+    color: #3b3759;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #logo {
